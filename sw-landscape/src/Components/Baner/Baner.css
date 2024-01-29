@@ -1,0 +1,92 @@
+.baner{
+    margin: 0px 120px;
+    margin-top: 10px;
+}
+
+.baner-text{
+    color: white;
+    font-size: 50px;
+    font-weight: 500;
+    line-height: 60px;
+}
+
+.baner-explore{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    gap: 50px;
+    width: fit-content;
+    margin-top: 70px;
+    padding: 5px 8px;
+    padding-left: 30px;
+    border-radius: 60px;
+    background-color: beige;
+    cursor: pointer;
+}
+
+.btn{
+    height: 40px;
+}
+
+.baner-explore p{
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+    
+}
+
+.baner-dot-play{
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.baner-dots{
+    display: flex;
+    align-items: center;
+    gap: 23px;
+    list-style: none;
+}
+
+.baner-dot{
+    width: 15px;
+    height: 15px;
+    background: white;
+    border-radius: 7.5px;
+    cursor: pointer;
+}
+
+.baner-dot.orange{
+    background: orangered;
+}
+
+@media screen and (max-width: 768px) {
+    .baner-text {
+        font-size: 7vw; /* Tamaño de fuente más grande para pantallas pequeñas */
+        
+    }
+
+    .baner-explore {
+        padding: 5vw 10vw; /* Relleno más grande para pantallas pequeñas */
+
+        
+    }
+
+    .baner-explore p {
+        font-size: 4vw; ;/* Tamaño de fuente más grande para pantallas pequeñas */
+        
+    }
+
+    .baner-dot-play {
+        margin-top: 15vw; /* Margen superior más grande para pantallas pequeñas */
+    }
+
+    .baner-dots {
+        gap: 3vw; /* Espacio entre puntos más grande para pantallas pequeñas */
+    }
+
+    .baner-dot {
+        width: 3vw; /* Tamaño de punto más grande para pantallas pequeñas */
+        height: 3vw; /* Tamaño de punto más grande para pantallas pequeñas */
+    }
+}
